@@ -26,3 +26,18 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python test cache
+.pytest_cache/
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python test cache
+.pytest_cache/

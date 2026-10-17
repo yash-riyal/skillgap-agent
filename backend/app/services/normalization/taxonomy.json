@@ -1,0 +1,252 @@
+{
+  "SQL": {
+    "canonical": "SQL",
+    "category": "database",
+    "aliases": [
+      "sql",
+      "relational database",
+      "relational databases",
+      "relational database proficiency",
+      "database querying",
+      "rdbms",
+      "sql queries",
+      "structured query language"
+    ],
+    "sub_skills": [
+      "MySQL",
+      "PostgreSQL",
+      "SQLite",
+      "Query Optimization",
+      "Schema Design",
+      "Database Migrations"
+    ],
+    "related": ["ORM", "SQLAlchemy", "Prisma", "TypeORM"]
+  },
+  "Docker": {
+    "canonical": "Docker",
+    "category": "devops",
+    "aliases": [
+      "docker",
+      "containerization",
+      "containers",
+      "containerized applications",
+      "dockerfile",
+      "docker-compose",
+      "docker compose"
+    ],
+    "sub_skills": [
+      "Dockerfile",
+      "Docker Compose",
+      "Multi-stage Builds",
+      "Container Networking"
+    ],
+    "related": ["Kubernetes", "Podman", "Helm"]
+  },
+  "REST API": {
+    "canonical": "REST API",
+    "category": "backend",
+    "aliases": [
+      "rest api",
+      "restful api",
+      "restful apis",
+      "rest apis",
+      "restful api development",
+      "rest architecture",
+      "api development",
+      "web apis",
+      "http endpoints"
+    ],
+    "sub_skills": [
+      "API Routing",
+      "Request Validation",
+      "Authentication",
+      "Status Codes",
+      "OpenAPI",
+      "Swagger"
+    ],
+    "related": ["GraphQL", "gRPC", "FastAPI", "Express", "Flask", "Django"]
+  },
+  "Python": {
+    "canonical": "Python",
+    "category": "programming_language",
+    "aliases": [
+      "python",
+      "python3",
+      "python 3",
+      "py"
+    ],
+    "sub_skills": [
+      "Asyncio",
+      "Pydantic",
+      "FastAPI",
+      "Flask",
+      "Django",
+      "Pytest"
+    ],
+    "related": ["Pip", "Poetry", "Virtualenv"]
+  },
+  "Automated Testing": {
+    "canonical": "Automated Testing",
+    "category": "quality_assurance",
+    "aliases": [
+      "testing",
+      "automated testing",
+      "automated software testing",
+      "unit testing",
+      "integration testing",
+      "test automation",
+      "tdd",
+      "test-driven development",
+      "e2e testing"
+    ],
+    "sub_skills": [
+      "Unit Tests",
+      "Integration Tests",
+      "Pytest",
+      "Jest",
+      "Mocha",
+      "Mocking"
+    ],
+    "related": ["CI/CD", "GitHub Actions"]
+  },
+  "Git": {
+    "canonical": "Git",
+    "category": "developer_tools",
+    "aliases": [
+      "git",
+      "version control",
+      "source control",
+      "github",
+      "gitlab",
+      "branching strategy"
+    ],
+    "sub_skills": [
+      "Commit Hygiene",
+      "Pull Requests",
+      "Git Flow",
+      "Merge Conflicts"
+    ],
+    "related": ["GitHub Actions", "CI/CD"]
+  },
+  "AWS": {
+    "canonical": "AWS",
+    "category": "cloud",
+    "aliases": [
+      "aws",
+      "amazon web services",
+      "aws cloud",
+      "cloud computing"
+    ],
+    "sub_skills": [
+      "S3",
+      "EC2",
+      "Lambda",
+      "RDS",
+      "CloudFormation",
+      "IAM"
+    ],
+    "related": ["GCP", "Azure", "Terraform"]
+  },
+  "JavaScript": {
+    "canonical": "JavaScript",
+    "category": "programming_language",
+    "aliases": [
+      "javascript",
+      "js",
+      "es6",
+      "node",
+      "nodejs",
+      "node.js"
+    ],
+    "sub_skills": [
+      "TypeScript",
+      "ESNext",
+      "Node.js Runtime",
+      "Async/Await"
+    ],
+    "related": ["React", "Express", "Vite"]
+  },
+  "TypeScript": {
+    "canonical": "TypeScript",
+    "category": "programming_language",
+    "aliases": [
+      "typescript",
+      "ts",
+      "typed javascript"
+    ],
+    "sub_skills": [
+      "Type Checking",
+      "Interfaces",
+      "Generics",
+      "TSConfig"
+    ],
+    "related": ["JavaScript", "React"]
+  },
+  "React": {
+    "canonical": "React",
+    "category": "frontend",
+    "aliases": [
+      "react",
+      "react.js",
+      "reactjs",
+      "react frontend"
+    ],
+    "sub_skills": [
+      "React Hooks",
+      "State Management",
+      "Component Architecture",
+      "JSX"
+    ],
+    "related": ["Redux", "Tailwind CSS", "Vite", "Next.js"]
+  },
+  "GraphQL": {
+    "canonical": "GraphQL",
+    "category": "backend",
+    "aliases": [
+      "graphql",
+      "graphql api",
+      "graphql schemas"
+    ],
+    "sub_skills": [
+      "Schema Definition",
+      "Resolvers",
+      "Mutations",
+      "Subscriptions"
+    ],
+    "related": ["Apollo", "REST API"]
+  },
+  "CI/CD": {
+    "canonical": "CI/CD",
+    "category": "devops",
+    "aliases": [
+      "ci/cd",
+      "continuous integration",
+      "continuous deployment",
+      "ci cd pipelines",
+      "github actions",
+      "jenkins"
+    ],
+    "sub_skills": [
+      "GitHub Actions Workflows",
+      "Automated Builds",
+      "Deployment Pipelines"
+    ],
+    "related": ["Docker", "Automated Testing"]
+  },
+  "Redis": {
+    "canonical": "Redis",
+    "category": "database",
+    "aliases": [
+      "redis",
+      "caching",
+      "in-memory cache",
+      "redis cache"
+    ],
+    "sub_skills": [
+      "Key-Value Storage",
+      "Cache Invalidation",
+      "Pub/Sub"
+    ],
+    "related": ["Memcached", "Message Queues"]
+  }
+}
